@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .contain {
+      background-color: rgb(25, 178, 238);
+
+      width: 100vw;
+      height: 12vh;
+
+      /* right: 0%;
+    bottom: 85%; */
+    }
+
+    .text {
+      color: white;
+      position: relative;
+      right: -6%;
+      bottom: -23%;
+
+    }
+
+    .concept {
+      position: relative;
+      right: -38%;
+      bottom: 22%;
+    }
+
+    .search {
+      display: flex;
+      width: 6%;
+      position: relative;
+      right: -63%;
+      bottom: 60%;
+    }
+
+    .box {
+
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+
+    .box1 {
+      width: 32vw;
+
+      height: 28vh;
+      font-size: larger;
+      text-align: center;
+
+
+    }
+
+    .text-center my-1 {
+      padding: 20%;
+
+    }
+
+    .copy {
+      background-color: rgb(25, 178, 238);
+      text-align: center;
+      width: 100vw;
+      height: 10vh;
+    }
+  </style>
+  <title>flipkart</title>
+</head>
+
+<body>
+  <div class="contain">
+    <span class="text">
+      <h1><b><i>flipkart</i></b></h1>
+    </span>
+    <span class="concept">
+      <a href="   home.html  ">Home</a>
+      <a href="about.html   ">About</a>
+      <a href="contact.html">Contact</a>
+    </span>
+
+    <div class="search"> <input type="text" placeholder="Search">
+    </div>
+
+  </div>
+
+
+
+
+  <h1>products</h1>
+
+
+
+
+
+  <main class="box">
+
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+    <div class="box1"> <br><br>
+      <p class="text-center my-1">Cricket Bats</p>
+      <p class="text-center my-1">Min 20% off</p>
+      <p class="text-center my-1">Grab Now!</p>
+    </div>
+  </main>
+
+
+  <footer class="copy">
+    <br>
+    @copyright mycart.com
+    <br>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
